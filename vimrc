@@ -27,6 +27,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'damage220/vim-finder'
 Plugin 'rust-lang/rust.vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'francoiscabrol/ranger.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -36,4 +37,5 @@ map <C-n> :NERDTreeToggle<CR>
 map <F7> gg=G<C-o><C-o>
 
 " Customs
-colorscheme base
+colorscheme 256_noir
+
