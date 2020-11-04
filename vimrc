@@ -7,7 +7,7 @@ set number
 set incsearch
 set noswapfile
 
-let g:airline_theme='minimalist'
+let g:airline_theme='iceberg'
 let g:NERDTreeWinSize=45
 
 " Plugin manager (Vundle)
@@ -28,12 +28,14 @@ Plugin 'damage220/vim-finder'
 Plugin 'rust-lang/rust.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'francoiscabrol/ranger.vim'
+Plugin 'kien/ctrlp.vim'
 
 call vundle#end()
 filetype plugin indent on
 
 " Hotkeys
 map <C-n> :NERDTreeToggle<CR>
+map <C-p> :CtrlP
 map <F7> gg=G<C-o><C-o>
 
 " Customs
