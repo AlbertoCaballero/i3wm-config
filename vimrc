@@ -2,6 +2,7 @@ syntax enable
 
 set tabstop=2
 set shiftwidth=2
+set encoding=utf-8
 set expandtab
 set number
 set incsearch
@@ -36,8 +37,9 @@ filetype plugin indent on
 " Hotkeys
 map <C-n> :NERDTreeToggle<CR>
 map <C-p> :CtrlP
+map <C-r> :Ranger
 map <F7> gg=G<C-o><C-o>
 
 " Customs
-colorscheme 256_noir
+colorscheme wasabi256
 
