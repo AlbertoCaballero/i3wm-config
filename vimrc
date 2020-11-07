@@ -8,7 +8,7 @@ set number
 set incsearch
 set noswapfile
 
-let g:airline_theme='iceberg'
+let g:airline_theme='atomic'
 let g:NERDTreeWinSize=45
 
 " Plugin manager (Vundle)
@@ -30,6 +30,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'francoiscabrol/ranger.vim'
 Plugin 'kien/ctrlp.vim'
+Plugin 'phildawes/racer'
 
 call vundle#end()
 filetype plugin indent on
@@ -41,5 +42,4 @@ map <C-r> :Ranger
 map <F7> gg=G<C-o><C-o>
 
 " Customs
-colorscheme wasabi256
-
+colorscheme d8g_01
