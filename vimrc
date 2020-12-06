@@ -31,6 +31,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'francoiscabrol/ranger.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'phildawes/racer'
+Plugin 'kiteco/vim-plugin'
 
 call vundle#end()
 filetype plugin indent on
