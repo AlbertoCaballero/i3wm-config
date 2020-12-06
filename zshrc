@@ -19,7 +19,7 @@ autoload -U compinit
 compinit
 
 #load plugins
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 export VISUAL=vim;
@@ -27,4 +27,6 @@ export EDITOR=vim;
 fpath+=$HOME/.zsh/pure
 autoload -U promptinit; promptinit
 prompt pure
+cd
+tmux
 # End of lines added by compinstall
