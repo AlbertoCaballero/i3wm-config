@@ -43,4 +43,5 @@ map <C-r> :Ranger
 map <F7> gg=G<C-o><C-o>
 
 " Customs
-colorscheme d8g_01
+colorscheme happy_hacking
+colorscheme wasabi256
