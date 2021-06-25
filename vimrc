@@ -32,6 +32,7 @@ Plugin 'francoiscabrol/ranger.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'phildawes/racer'
 Plugin 'kiteco/vim-plugin'
+Plugin 'leafgarland/typescript-vim'
 
 call vundle#end()
 filetype plugin indent on
