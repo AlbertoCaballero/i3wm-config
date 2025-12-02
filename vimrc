@@ -33,6 +33,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'phildawes/racer'
 Plugin 'kiteco/vim-plugin'
 Plugin 'leafgarland/typescript-vim'
+Plugin 'mtth/scratch.vim'
+Plugin 'yggdroot/indentline'
 
 call vundle#end()
 filetype plugin indent on
