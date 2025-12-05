@@ -8,7 +8,9 @@ set number
 set incsearch
 set noswapfile
 
+" airline config
 let g:airline_theme='atomic'
+
 let g:NERDTreeWinSize=45
 
 " Plugin manager (Vundle)
@@ -35,6 +37,9 @@ Plugin 'kiteco/vim-plugin'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'mtth/scratch.vim'
 Plugin 'yggdroot/indentline'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'mhinz/vim-signify'
+Plugin 'tommcdo/vim-fugitive-blame-ext'
 
 call vundle#end()
 filetype plugin indent on
@@ -46,5 +51,8 @@ map <C-r> :Ranger
 map <F7> gg=G<C-o><C-o>
 
 " Customs
-colorscheme happy_hacking
-colorscheme wasabi256
+" colorscheme happy_hacking
+" colorscheme wasabi256
+" colorscheme 256-grayvim
+colorscheme codedark
+
