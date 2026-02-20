@@ -40,9 +40,16 @@ Plugin 'yggdroot/indentline'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'mhinz/vim-signify'
 Plugin 'tommcdo/vim-fugitive-blame-ext'
+Plugin 'mhinz/vim-startify'
+Plugin 'tpope/vim-obsession'
+Plugin 'dense-analysis/ale'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
+Plugin 'wojtekmach/vim-rename'
 
 call vundle#end()
 filetype plugin indent on
+filetype plugin on
 
 " Hotkeys
 map <C-n> :NERDTreeToggle<CR>
@@ -50,9 +57,22 @@ map <C-p> :CtrlP
 map <C-r> :Ranger
 map <F7> gg=G<C-o><C-o>
 
+" NERDY Commenter
+" Create default mappings
+let g:NERDCreateDefaultMappings = 1
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
+let g:NERDCommentEmptyLines = 1
+" Enable trimming of trailing whitespace when uncommenting
+let g:NERDTrimTrailingWhitespace = 1
+" Enable NERDCommenterToggle to check all selected lines is commented or not
+let g:NERDToggleCheckAllLines = 1
+nmap <C-_> <Plug>NERDCommenterToggle
+vmap <C-_> <Plug>NERDCommenterToggle<CR>gv
+
 " Customs
 " colorscheme happy_hacking
-" colorscheme wasabi256
+colorscheme wasabi256
 " colorscheme 256-grayvim
-colorscheme codedark
-
+" colorscheme codedark
